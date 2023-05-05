@@ -24,9 +24,7 @@ def save_frame_to_user_profile(frame, user_profile, video_session):
         cv2.imwrite(temp_img.name, frame)
 
 def sending(name, user_profile):
-    account_sid = 'AC10a926caa66eb297197b781eddf98a5f'
-    auth_token = 'e06bfe697948c9ee95cc28763f6fbb8f'
-    client = Client(account_sid, auth_token)
+  
 
     
     def sendText(mes, numbers):
